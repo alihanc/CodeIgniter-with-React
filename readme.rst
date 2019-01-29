@@ -6,6 +6,14 @@ CodeIgniter code is little bit changed to accommodate theming structure. Also th
 
 The changes are done in such a way, which put this repository in the state, in which it can be used in multiple ways, the default being rendering the views using React and it supports the default CodeIgniter views also.
 
+
+###################
+How to Start
+###################
+Just checkout application/controllers/Welcome.php, and call `$this->render_view( string $view_name, ? array $vars );` function to render any view.
+
+The view file in react should reside at `assets/js/react/components/$view_name.js`
+
 ###################
 What is CodeIgniter
 ###################
